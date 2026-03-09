@@ -7,14 +7,21 @@
         "dev": "vite",
         "build": "vite build",
         "preview": "vite preview",
-        "typecheck": "tsc --noEmit"
+        "typecheck": "tsc --noEmit",
+        "log": "tsx scripts/log-prompt.ts",
+        "datasette": "datasette ~/.claude/prompt-logs/prompts.db"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.2.1",
+        "@types/better-sqlite3": "^7.6.13",
         "@vitejs/plugin-basic-ssl": "^2.1.4",
         "prettier": "^3.8.1",
         "tailwindcss": "^4.2.1",
+        "tsx": "^4.21.0",
         "typescript": "^5.9.3",
         "vite": "^7.3.1"
+    },
+    "dependencies": {
+        "better-sqlite3": "^12.6.2"
     }
 }
