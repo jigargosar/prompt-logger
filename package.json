@@ -9,7 +9,7 @@
         "preview": "vite preview",
         "typecheck": "tsc --noEmit",
         "log": "tsx scripts/log-prompt.ts",
-        "datasette": "datasette ~/.claude/prompt-logs/prompts.db"
+        "datasette": "C:/Users/jigar/AppData/Roaming/Python/Python313/Scripts/datasette ~/.claude/prompt-logs/prompts.db"
     },
     "devDependencies": {
         "@tailwindcss/vite": "^4.2.1",
